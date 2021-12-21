@@ -15,6 +15,7 @@ class MyHomeWork3 {
         toStringArr2();
         toStringArr3();
         toStringArr4();
+        //toStringArr5();
     }
 
         static void toStringArr1() {
@@ -46,11 +47,18 @@ class MyHomeWork3 {
         }
 
         static void toStringArr4() {
-        int[][] matrix = new int[4][4];
+        int[][] matrix = new int[5][5];
         for (int i = 0; i < matrix.length; i++) {
             matrix[i][i] = 1;
             matrix[i][matrix.length - i - 1] = 1;
             System.out.println(Arrays.toString(matrix[i]));
         }
         }
-}
+        //static void toStringArr5(){
+        //int[] arr5 = new int[len];
+        //for (int i = 0; i < len; i++) {
+            //arr5[i] = initialValue;
+            //System.out.println(Arrays.toString(arr5));
+        }
+        //}
+//}
